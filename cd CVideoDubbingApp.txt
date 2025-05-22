@@ -1,0 +1,34 @@
+cd C:\VideoDubbingApp
+
+
+venv39_new\Scripts\activate
+
+
+output:(venv39_new) C:\VideoDubbingApp>[]
+
+
+check:dir test_video.mp4
+
+
+
+python backend.py --video C:\VideoDubbingApp\Race.mkv --audio_lang hindi --subtitle_lang german
+
+
+python backend.py --video C:\VideoDubbingApp\truimpt4.mp4 --input_lang english --audio_lang portuguese --subtitle_lang chinese
+
+
+This MacBook is a Big Win for India!
+
+
+input edit:
+
+python backend.py --video C:\VideoDubbingApp\cmf_O.mp4 --input_lang english --audio_lang turkish --subtitle_lang japanese
+
+python backend.py --video C:\VideoDubbingApp\yoyo_O.mp4 --input_lang english --audio_lang hindi --subtitle_lang german
+
+
+||
+
+cd C:\VideoDubbingApp
+
+npm start
